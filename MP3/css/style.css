@@ -1,0 +1,612 @@
+body, html{
+    margin: 0;
+    background-image: url("../img/dusttt.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: #f0e89e;
+    height: 100%;
+    width:  100vw;
+}
+.nav2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: #f0e89e;
+    
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    background-color: #f0e89e;
+    z-index: 99;
+    
+}
+
+.containcola{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    background-color: #f0e89e;
+}
+
+.cola{
+    width: 100%;
+    height: 600px;
+}
+
+.cola2{
+    background-color: #f0e89e;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url("../img/wave.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.navlogo img{
+width: 70PX;
+}
+
+.navlogo{
+    padding-left: 20PX;
+}
+
+.navtextlink{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    align-items: center;
+    width: 40%;
+}
+
+.navlink{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.head1, .head2{
+    height: calc(100vh - 100px);
+    width:  50%;
+}
+
+.head2 img{
+    height: 100%;
+}
+
+.head2{
+    display: flex;
+    justify-content: center;
+}
+
+.head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "GvTimeRegular";
+    font-size: 180px;
+    margin-bottom: -60px;
+    font-weight: 400;
+}
+
+.containtitle{
+    padding-bottom: 30%;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 20px;
+    font-family: "Caslon\ 3\ Roman";
+}
+
+p{
+    font-family: "Caslon\ 3\ Roman";
+}
+
+
+@font-face {
+    font-family: "GvTimeRegular";
+    src: local("GvTimeRegular"),
+      url("../GvTimeRegular-4B1zD.ttf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
+        format("opentype"), url("trickster-outline.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "Caslon\ 3\ Roman";
+    src: local("Caslon\ 3\ Roman"),
+      url("../Caslon\ 3\ Roman.otf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
+        format("opentype"), url("trickster-outline.woff") format("woff");
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+  main {
+    background: #B9001A;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+  }
+  
+  /*CARD*/
+  .card__btn {
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 24px;
+    font-family: sans-serif;
+    font-size: 6px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 88px;
+    margin: 8px 0 0;
+    opacity: 0.5;
+    padding: 8px;
+  }
+  
+  .card__text-sm {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 16px 0 8px;
+    position: relative;
+    font-weight: 300;
+  }
+  
+  .card__text-sm::before {
+    content: "";
+    background: #fff;
+    height: 1px;
+    width: 16px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .card__text-lg {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 100%;
+    margin: 0;
+  }
+  
+  /*...large...*/
+  .card-lg__container {
+      margin-top: 40px;
+    padding: 0 16px 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        position: fixed;
+  }
+  
+  .card-lg__container .card__text-lg {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 1.4px;
+  }
+  
+  .card-lg__container .card__text-md {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.5;
+    padding: 0 32px 0 0;
+  }
+  
+  .card-lg__container .card__text-sm {
+    font-size: 14px;
+  }
+  
+  .card-lg__container .card__text-sm::before {
+    width: 24px;
+    height: 2px;
+  }
+  
+  /*...small...*/
+  .card-sm__container {
+    height: 300px;
+    margin: 0 -88px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .card-sm {
+    background: #ccc;
+    background-size: cover;
+    background-position: center center;
+    -webkit-box-shadow: inset 0 0 100vw 100vw rgba(0, 0, 0, 0.3), 0 16px 8px -8px rgba(0, 0, 0, 0.4);
+            box-shadow: inset 0 0 100vw 100vw rgba(0, 0, 0, 0.3), 0 16px 8px -8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    width: 150px;
+    height: calc(100% - 64px);
+    margin: 0 8px;
+    padding: 24px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  
+  .card-sm:hover {
+    margin: -8px 8px 0;
+  }
+  
+  .card-sm .card__text-sm {
+    opacity: 0.8;
+  }
+  
+  /*HIDE DEFAULT SCROLL BAR*/
+  .main::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .main {
+    -ms-overflow-style: none;
+  }
+  
+  
+
+
+
+
+
+
+
+  footer{
+      background-color: #B9001A;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  footer p{
+      font-size: 16px;
+      color: white;
+  }
+
+
+
+.card0{
+    background-image: url("../img/basic-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card1{
+    background-image: url("../img/green-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card2{
+    background-image: url("../img/crimson-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card3{
+    background-image: url("../img/orange-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card4{
+    background-image: url("../img/yellow-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card5{
+    background-image: url("../img/red-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card6{
+    background-image: url("../img/blue-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card7{
+    background-image: url("../img/rainbow-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card8{
+    background-image: url("../img/blue-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card8{
+    background-image: url("../img/pink-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card9{
+    background-image: url("../img/cristal-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card10{
+    background-image: url("../img/purple-cola.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  
+
+.contenu{
+    width: 100%;
+    height: 100%;
+}
+
+.wave2{
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.separateline{
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/wave4.svg");
+    background-size: cover;
+}
+
+
+
+
+.containbottle{
+    width: 1000px;
+    padding: 40px 0;
+    background-image: url("../img/dusttt.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.main2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url("../img/colapaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.colaitem{
+    width: 200px;
+    border-radius: 24px;
+}
+
+.colaitem img{
+    width: 200px;
+    border-radius: 24px;
+}
+
+.textdesc{
+    width: 100%;
+}
+
+.coladesc{
+    width: 30%;
+}
+
+.littleline{
+    height: 2px;
+    width: 45px;
+    background-color: #B9001A;
+}
+
+.titlecola{
+    margin: 0;
+    font-family: "GvTimeRegular";
+    font-size: 46px;
+}
+
+#pink{
+    color: rgb(243, 115, 255);
+}
+
+.buttonshop{
+    width: 200px;
+    height: 60px;
+    background-color: #B9001A;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonshop:hover{
+    background-color: #880113;
+    transition: 0.5s;
+    }
+
+.buttonshop p{
+    color: white;
+}
+
+.panier{height: 30px;}
+
+.horiz{
+    height: 25px;
+    border-radius: 4px;
+    border: none;
+    width: 50px;
+    margin-right: 25px;
+}
+
+.flexhoriz{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+p, .slogan{
+    font-family: 'Roboto', sans-serif;
+}
+
+.slogan{
+    font-weight: 500;
+}
+
+.cocapaper{
+    background-image: url("../img/colapaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    filter: saturate(60%);
+}
+
+#advertising{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+#adblock{
+    height: 350px;
+    width: 60%;
+    display: flex;
+}
+
+#adblock1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #B9001A;
+    border-radius: 24px 0 0 24px;
+}
+
+#adblock2{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 24px 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#adblock1 img{
+    height: 100%;
+}
+
+#adblock2 p{
+    width: 70%;
+    font-size: 18px;
+}
+
+#containall{
+    background-image: url("../img/dusttt.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    margin-top: 120px; 
+    border-radius: 24px;
+    margin-bottom: 20px;
+}
+
+#mainall{
+    display: flex;
+    justify-content: center;
+    overflow-x: visible;
+    height: 100%;
+    background-image: url("../img/colapaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ligneall{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: stretch;
+}
+
+#pre-footer{
+    background-color: #f0e89e;
+    width: 100%;
+    height: 2px;
+}
+
+.activelinkkk{
+    color: #B9001A;
+}
